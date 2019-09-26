@@ -34,9 +34,9 @@ function draw() {
   const g = gSlider.value();
   const b = bSlider.value();
   background(r, g, b);
-  text('Rouge', rSlider.x * 2 + rSlider.width, 700);
-  text('Vert', gSlider.x * 2 + gSlider.width, 750);
-  text('Bleu', bSlider.x * 2 + bSlider.width, 800);
+  text('Red', rSlider.x * 2 + rSlider.width, 700);
+  text('Green', gSlider.x * 2 + gSlider.width, 750);
+  text('Blue', bSlider.x * 2 + bSlider.width, 800);
   streams.forEach(function(stream) {
     stream.render();
   });
